@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+
+}
+
+body {
+    background-image:  url(../images/b2.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: 730px ;
+    background-attachment: fixed;
+    height: 600px;
+    
+    
+}
+
+.corps {
+    width : 100%;
+    height : 1000px;
+    backdrop-filter: blur(3px);
+}
+.partials {
+    display: none;
+    
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.logo img {
+    width: 150px;
+}
+
+.sup  {
+    width: 35%;
+
+    background-color: rgba(255, 255, 255, 0.342);
+    position: relative;
+    top: 40px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 10px rgb(160, 158, 158);
+}
+.entree {
+    position: relative;
+    bottom: 50px;
+}
+.entree input {
+    font-size: 1.3rem;
+    height: 61px;
+    width: 70%;
+    position: relative;
+    bottom: 23px;
+    right: 4px;
+    border : 3px solid #2F4858;
+    background-color:#4E6A7B;
+}
+
+.entree a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    position: relative;
+    left: 150px;
+}
+
+.infe {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.368);
+    position: relative;
+    top: 36px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 0px 10px 10px rgb(160, 158, 158);
+}
+.infe input {
+    font-size: 1.5rem;
+    background-color:#fafafa3c;
+    border: none;
+}
+.infe input:hover {
+    cursor: pointer;
+    color: #4E6A7B;
+    border: none;
+}
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.pre img {
+    position: relative;
+    bottom:100px;
+}
+
+.pied {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 100px;
+    margin-top: 40px;
+
+    
+}
+
+.pied p {
+    font-size: 1.3rem;
+    position: relative;
+    height: 30px;
+    top: 50px;
+}
+
+.pied p span {
+    color: red;
+}
+
+.pied img {
+    position: relative;
+    left: 780px;
+    bottom: 10px;
+    
+}
+
+.erreur {
+    position: relative;
+    bottom: 100px;
+    color: red;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 679px) {
+   body {
+    background-size: cover;
+    background-position-x: 50px ;
+    background-position-y:center ;
+    background-attachment: fixed;
+
+   }
+   .logo {
+    margin: 0;
+   }
+   .logo img {
+        width: 100px;
+    
+    }
+    .sup {
+        width: 90%;
+    }
+    .infe{
+        width: 70%;
+    }
+
+    
+
+    .pied p {
+        position: relative;
+        font-size: 1.1rem;
+        font-weight: bold;
+        top: 10px;
+
+    }
+
+    .pied img {
+        display: none;
+    }
+    .erreur {
+        position: relative;
+        bottom: 50px;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width: 680px) and (max-width:1279px) {
+    body {
+     background-size: cover;
+     background-position-x: left ;
+     background-position-y:center ;
+     background-attachment: fixed;
+ 
+    }
+    .corps form {
+        margin-top: 150px;
+    }
+    
+    .logo  {
+        margin: 0;
+     
+     }
+     .sup {
+         width: 60%;
+     }
+     .infe{
+         width: 50%;
+     }
+ 
+     
+ 
+     .pied  {
+        margin-top: 190px;
+     }
+     .erreur {
+        position: relative;
+        bottom: 150px;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+ 
+     
+ }

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.hamb {
+    display: none;
+}
+
+@media screen and (max-width : 679px){
+    .hamb {
+        display: block;
+    }
+    .lien1 {
+        display: none !important;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    
+}
