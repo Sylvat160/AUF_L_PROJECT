@@ -8,7 +8,8 @@
             
             <a class="logo" href="#"><img src="../images/logoauf.png" alt="logo"></a>
         <center>
-                <form method="post" action="acceuil.php">
+                <form method="post" action="admins">
+                    @csrf
                     <div class="sup">
                         <div class="pre">
                             <img src="../images/Groupe 14.png" width="170px" alt="">
@@ -30,7 +31,7 @@
                             <label for="Cpassword"> <img src="../images/Groupe 16.png" width="71px" alt=""></label>
                             <input type="password" required name="Cpassword" placeholder="Confirmer le mot de passe"> <br>
 
-                            <a href="acceuil.php"> Se connecter</a>
+                            <a href="#"> Se connecter</a>
                         </div>
                     </div>
                     <div class="infe">
